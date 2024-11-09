@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
+
 const Hero = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-1/2 pr-8 ">
         
           <h1 className="text-6xl font-extrabold  text-primary leading-tight tracking-wide drop-shadow-md">
-            Hello, I'm <span className="text-yellow-400">Hira Naz</span>
+            Hello, Im <span className="text-yellow-400">Hira Naz</span>
           </h1>
           
           <p className="text-2xl mt-4 mb-6 leading-relaxed text-gray-200 opacity-90 hover:opacity-100 transition-all duration-300">

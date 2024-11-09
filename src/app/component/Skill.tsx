@@ -3,16 +3,16 @@ import React from 'react';
 const Skill = () => {
   return (
     <div className="container mx-auto py-8 mt-20">
-      {/* About Section */}
+      {/* Skill Section */}
       <section id="Skill">
-        <h1 className="text-5xl font-bold text-primary text-center mb-8">Skill</h1>
+        <h1 className="text-5xl font-bold text-white text-center mb-8">Skill</h1> {/* Changed to white */}
 
         {/* Flex container for image and skills */}
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
           {/* Profile Image Section */}
           <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
             <img
-              src={"./Images/hira.png"} // Update the path as needed
+              src="/Images/hira.png" // Update the path as needed
               alt="Hira Naz"
               className="rounded-full object-cover w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72"
             />
@@ -21,41 +21,41 @@ const Skill = () => {
           {/* Skills Section */}
           <div className="md:w-2/3 w-full">
             <div className="skill-mf">
-              <p className="font-bold text-xl mb-4">Skills</p>
+              <p className="font-bold text-xl text-white mb-4">Skills</p> {/* Changed to white */}
 
               {/* Skill Bars */}
               <div className="mb-4">
-                <span>HTML</span> <span className="float-right">95%</span>
+                <span className="text-white">HTML</span> <span className="float-right text-white">95%</span> {/* Changed to white */}
                 <div className="bg-gray-300 rounded h-2">
-                  <div className="bg-primary h-2 rounded" style={{ width: '95%' }} />
+                  <div className="bg-primary h-2 rounded w-[95%]" />
                 </div>
               </div>
 
               <div className="mb-4">
-                <span>CSS</span> <span className="float-right">95%</span>
+                <span className="text-white">CSS</span> <span className="float-right text-white">95%</span> {/* Changed to white */}
                 <div className="bg-gray-300 rounded h-2">
-                  <div className="bg-primary h-2 rounded" style={{ width: '95%' }} />
+                  <div className="bg-primary h-2 rounded w-[95%]" />
                 </div>
               </div>
 
               <div className="mb-4">
-                <span>JavaScript</span> <span className="float-right">85%</span>
+                <span className="text-white">JavaScript</span> <span className="float-right text-white">85%</span> {/* Changed to white */}
                 <div className="bg-gray-300 rounded h-2">
-                  <div className="bg-primary h-2 rounded" style={{ width: '85%' }} />
+                  <div className="bg-primary h-2 rounded w-[85%]" />
                 </div>
               </div>
 
               <div className="mb-4">
-                <span>TypeScript</span> <span className="float-right">90%</span>
+                <span className="text-white">TypeScript</span> <span className="float-right text-white">90%</span> {/* Changed to white */}
                 <div className="bg-gray-300 rounded h-2">
-                  <div className="bg-primary h-2 rounded" style={{ width: '90%' }} />
+                  <div className="bg-primary h-2 rounded w-[90%]" />
                 </div>
               </div>
 
               <div className="mb-4">
-                <span>Tailwind CSS</span> <span className="float-right">80%</span>
+                <span className="text-white">Tailwind CSS</span> <span className="float-right text-white">80%</span> {/* Changed to white */}
                 <div className="bg-gray-300 rounded h-2">
-                  <div className="bg-primary h-2 rounded" style={{ width: '80%' }} />
+                  <div className="bg-primary h-2 rounded w-[80%]" />
                 </div>
               </div>
             </div>
