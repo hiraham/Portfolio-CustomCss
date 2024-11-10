@@ -6,15 +6,7 @@ function Contact() {
     <div className="container mx-auto p-8">
       <section id="contact" className="relative py-16 w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 w-full ">
-          <Image 
-            src="/images/bg_1.jpg"  
-            alt="Background Image"
-            layout="fill"
-            objectFit="cover"
-            quality={100} 
-          />
-        </div>
+       
 
         {/* Form Section */}
         <div className="relative w-full max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8 text-center bg-opacity-80 z-10">
