@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Skill = () => {
   return (
     <div className="container mx-auto py-8 mt-20">
@@ -11,9 +11,10 @@ const Skill = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
           {/* Profile Image Section */}
           <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
-            <img
-              src="/Images/hira.png" // Update the path as needed
+            <Image src="/images/hira.png" 
               alt="Hira Naz"
+              width={50}
+              height={70}
               className="rounded-full object-cover w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72"
             />
           </div>

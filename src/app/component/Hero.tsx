@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -18,13 +19,13 @@ const Hero = () => {
           </p>
           <button className="bg-primary text-white font-semibold py-3 px-8 rounded-full shadow-lg transform transition-all duration-300 hover:bg-yellow-500 hover:-translate-y-1 hover:scale-105">
             View My Work
-          </button>
+          </button> <div className="w-1/2">
+          <Image src={'/images/hira.png'} alt="my image" width={600} height={400} />
+        </div>
         </div>
 
         {/* Image Section */}
-        <div className="w-1/2">
-          <img src={'./images/hira.png'} alt="my image" width={600} height={400} />
-        </div>
+       
       </section>
     </div>
   );
