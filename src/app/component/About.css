@@ -1,0 +1,44 @@
+/* About.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  .content {
+    margin-top: 24px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a202c; /* primary color */
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .text-content {
+    width: 100%;
+    padding-right: 32px;
+  }
+  
+  .heading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #1a202c; /* primary color */
+    margin-top: 24px;
+  }
+  
+  .paragraph {
+    margin-top: 16px;
+    font-size: 1.125rem;
+    color: #ffffff;
+  }
+  

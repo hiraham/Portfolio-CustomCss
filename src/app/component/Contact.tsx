@@ -1,25 +1,21 @@
 import Link from 'next/link';
-
+import './Contact.css';
 
 function Contact() {
   return (
-    <div className="container mx-auto p-8">
-      <section id="contact" className="relative py-16 w-full">
-        {/* Background Image */}
-       
-
-        {/* Form Section */}
-        <div className="relative w-full max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8 text-center bg-opacity-80 z-10">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">
-            Have a <span className="text-cyan-600">Question?</span>
+    <div className="contact-container">
+      <section id="contact" className="contact-section">
+        <div className="form-container">
+          <h2 className="form-title">
+            Have a <span className="highlight">Question?</span>
           </h2>
-          <h3 className="text-lg font-semibold text-gray-600 mb-6">Contact Us</h3>
+          <h3 className="form-subtitle">Contact Us</h3>
 
-          <form className="space-y-6">
+          <form className="form">
             <div className="form-group">
               <input
                 type="text"
-                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
+                className="input"
                 placeholder="Your Name"
                 required
               />
@@ -28,7 +24,7 @@ function Contact() {
             <div className="form-group">
               <input
                 type="email"
-                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
+                className="input"
                 placeholder="Your Email"
                 required
               />
@@ -37,7 +33,7 @@ function Contact() {
             <div className="form-group">
               <input
                 type="text"
-                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
+                className="input"
                 placeholder="Subject"
                 required
               />
@@ -45,18 +41,18 @@ function Contact() {
 
             <div className="form-group">
               <textarea
-                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
+                className="textarea"
                 placeholder="Your Message"
                 required
               ></textarea>
             </div>
 
-            <div className="mt-6">
+            <div className="submit-container">
               <button
                 type="submit"
-                className="w-full py-3 bg-gradient-to-r from-cyan-500 to-cyan-700 text-white font-semibold rounded-lg hover:from-cyan-700 hover:to-cyan-500 transition-all duration-300 transform hover:scale-105"
+                className="submit-button"
               >
-                <Link href="mailto:hirahammad34@gmail.com" className="block">Submit</Link>
+                <Link href="mailto:hirahammad34@gmail.com" className="submit-link">Submit</Link>
               </button>
             </div>
           </form>

@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+  }
+  

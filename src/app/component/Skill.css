@@ -1,0 +1,112 @@
+/* Skill.css */
+
+.skill-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 80px;
+}
+
+.skill-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .skill-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .profile-pic {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+.skills {
+  flex: 2;
+  width: 100%;
+}
+
+.skills-heading {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.skill-bar {
+  margin-bottom: 1rem;
+}
+
+.skill-name {
+  color: white;
+}
+
+.skill-percentage {
+  float: right;
+  color: white;
+}
+
+.progress-bar {
+  background-color: #d1d5db; /* Gray color */
+  border-radius: 0.25rem;
+  height: 0.5rem;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 0.25rem;
+}
+
+.html {
+  background-color: #06b6d4; /* Primary color for HTML */
+  width: 95%;
+}
+
+.css {
+  background-color: #06b6d4; /* Primary color for CSS */
+  width: 95%;
+}
+
+.javascript {
+  background-color: #06b6d4; /* Primary color for JavaScript */
+  width: 85%;
+}
+
+.typescript {
+  background-color: #06b6d4; /* Primary color for TypeScript */
+  width: 90%;
+}
+
+.tailwind {
+  background-color: #06b6d4; /* Primary color for Tailwind CSS */
+  width: 80%;
+}

@@ -1,0 +1,60 @@
+/* Hero.css */
+
+.hero-container {
+    max-width: 1200px;
+    margin: 32px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .hero-text {
+    width: 50%;
+    padding-right: 36px;
+  }
+  
+  .hero-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #06b6d4; /* Primary color */
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .highlight {
+    color: #fbbf24; /* Yellow color */
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+    margin: 16px 0 24px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    transition: opacity 0.3s ease;
+  }
+  
+  .hero-description:hover {
+    opacity: 1;
+  }
+  
+  .hero-button {
+    background-color: #06b6d4; /* Primary color */
+    color: white;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    transform: scale(1);
+  }
+  
+  .hero-button:hover {
+    background-color: #fbbf24; /* Yellow hover color */
+    transform: translateY(-4px) scale(1.05);
+  }
+  
+  .hero-image {
+    width: 50%;
+  }
+  

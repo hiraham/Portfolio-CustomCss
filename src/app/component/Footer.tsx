@@ -1,18 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
-const footer = () => {
+const Footer = () => {
   return (
     <div>
-      
-        <main className="flex container mx-auto p-6">
-      
-      </main>
+      <main className="main-container"></main>
 
-      <footer className="bg-black text-white p-4 text-center">
+      <footer className="footer">
         © 2024 Hira Naz. All rights reserved.
       </footer>
     </div>
-  )
+  );
 }
 
-export default footer;
+export default Footer;

@@ -1,0 +1,86 @@
+/* Portfolio.css */
+
+.portfolio-container {
+    margin-top: 80px;
+  }
+  
+  .portfolio-title {
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #06b6d4; /* Primary color */
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .counter-wrap {
+    display: flex;
+    margin: 40px 16px;
+    color: white;
+  }
+  
+  .text {
+    font-size: 1.25rem;
+  }
+  
+  .projects-count {
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+  }
+  
+  .number {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  
+  @media (min-width: 640px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .project-image {
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  .resume-section {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .resume-button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    background-color: #06b6d4; /* Primary color */
+    color: white;
+    border-radius: 9999px;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  
+  .resume-button:hover {
+    background-color: #16a34a; /* Green hover color */
+    transform: scale(1.05);
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
